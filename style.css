@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h2 {
+  color: #333;
+  font-size: 3rem;
+  text-align: center;
+  padding-bottom: 3rem;
+}
+.container {
+  margin-top: 3rem;
+  width: 50rem;
+  background: #fff;
+  padding: 3rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.1);
+}
+.container label {
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 2rem 0;
+}
+input {
+  margin: 1rem 0;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  display: block;
+  font-size: 1.5rem;
+  width: 100%;
+  outline: none;
+  border: 1px solid gray;
+}
+button {
+  padding: 1rem 1.5rem;
+  background-color: #5cb85c;
+  width: 100%;
+  font-size: 2rem;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  margin-top: 3rem;
+}
+button:hover {
+  background-color: #4cae4c;
+}
+.resulthead {
+  font-size: 3rem;
+}
+.result {
+  display: none;
+  width: 50rem;
+  min-height: 40rem;
+  margin-top: 3rem;
+  font-size: 1.75rem;
+  flex-direction: column;
+  gap: 2rem;
+  background: linear-gradient(#e8b86d, #06a1cc);
+  padding: 2rem;
+  border-radius: 2rem;
+  text-align: center;
+}
+.display {
+  display: flex;
+}
+table {
+  border: 1px solid black;
+}
+table td {
+  padding: 1rem;
+  width: 15rem;
+  height: 5rem;
+  font-size: 2rem;
+  text-align: center;
+}
+/* responsive */
+
+@media only screen and (min-width: 322px) and (max-width: 376px) {
+  html {
+    font-size: 40%;
+  }
+}
+@media only screen and (max-width: 321px) {
+  html {
+    font-size: 30%;
+  }
+}
+@media only screen and (min-width: 377px) and (max-width: 426px) {
+  html {
+    font-size: 45%;
+  }
+}
+@media only screen and (min-width: 426px) and (max-width: 767px) {
+  html {
+    font-size: 50%;
+  }
+}
+@media only screen and (min-width: 767px) and (max-width: 1200px) {
+  html {
+    font-size: 60%;
+  }
+}
+
+@media only screen and (min-width: 2559px) {
+  html {
+    font-size: 170%;
+  }
+}
